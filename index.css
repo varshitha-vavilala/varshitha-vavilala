@@ -1,0 +1,215 @@
+/* Reset default styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Global styles */
+html,
+body {
+	height: 100%;
+	/* Ensure the body and html elements cover the full viewport */
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f5f5f5;
+	color: #333;
+	background-image: url("https://www.theaa.com/breakdown-cover/~/media/the-aa/smart-breakdown-landing/patrolcontentblock-2x-lighthouse-version.png?rev=f7990e85e51643f4ac971ec0291c59ef&hash=9260E7E3ABA7636E43850C62A58B8DBB");
+	/* Ensure this path is correct */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+}
+
+header {
+	background-color: #333;
+	font-size: 1em;
+	margin-bottom: 10px;
+	color: #fff;
+	padding: 10px 0;
+}
+
+header .logo {
+	max-width: 200px;
+	vertical-align: middle;
+	height: 150px;
+}
+
+nav h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+header nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav ul li a:hover {
+	color: rgb(0, 0, 0);
+}
+
+#hero {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMu3dzKMCx8VrZS4OOrHLQNuhUTlHtuCDLA&s");
+	background-size: cover;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding: 100px 0;
+}
+
+/*#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}*/
+
+#hero p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #f11909;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: #d32f2f;
+}
+
+#register {
+	background-image: url("https://www.carbike360.com/_next/image?url=https%3A%2F%2Fd2uqhpl0gyo7mc.cloudfront.net%2Fsmall_old_vehicle_registration_rule_news_1_a5f82fa857.png&w=3840&q=100");
+	/* Ensure this path is correct */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #0c0b0b;
+	padding: 100px 0;
+}
+
+#register p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #050100e9;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: #d32f2f;
+}
+
+#services {
+	background-color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.service {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.service-item {
+	flex: 1 1 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	text-align: left;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+#benefits {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+	text-align: center;
+}
+
+#benefits ul {
+	max-width: 600px;
+	margin: auto;
+	text-align: left;
+}
+
+#benefits ul li {
+	margin-bottom: 10px;
+}
+
+#contact {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.contact-btn {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.contact-btn:hover {
+	background-color: #555;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.social-links {
+	margin-top: 10px;
+}
+
+.social-link {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.social-link:hover {
+	text-decoration: underline;
+}
